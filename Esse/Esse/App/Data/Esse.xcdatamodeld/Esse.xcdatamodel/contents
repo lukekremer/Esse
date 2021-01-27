@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Experiences" representedClassName="Experiences" syncable="YES" codeGenerationType="class">
+        <attribute name="day" optional="YES" attributeType="String"/>
+        <attribute name="experience1" optional="YES" attributeType="String"/>
+        <attribute name="experience2" optional="YES" attributeType="String"/>
+        <attribute name="experience3" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Friday" representedClassName="Friday" syncable="YES" codeGenerationType="class">
+        <attribute name="conflict" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="meaning" optional="YES" attributeType="String"/>
+        <attribute name="resolve" optional="YES" attributeType="String"/>
+        <attribute name="story" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Gratitude" representedClassName="Gratitude" syncable="YES" codeGenerationType="class">
+        <attribute name="gratitude1" optional="YES" attributeType="String"/>
+        <attribute name="gratitude2" optional="YES" attributeType="String"/>
+        <attribute name="gratitude3" optional="YES" attributeType="String"/>
+        <attribute name="gratitude4" optional="YES" attributeType="String"/>
+        <attribute name="gratitude5" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="meditation" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Identify" representedClassName="Identify" syncable="YES" codeGenerationType="class">
+        <attribute name="feel" optional="YES" attributeType="String"/>
+        <attribute name="hear" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="see" optional="YES" attributeType="String"/>
+        <attribute name="smell" optional="YES" attributeType="String"/>
+        <attribute name="surroundings" optional="YES" attributeType="String"/>
+        <attribute name="touch" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Journal" representedClassName="Journal" syncable="YES" codeGenerationType="class">
+        <attribute name="affirmations1" optional="YES" attributeType="String"/>
+        <attribute name="affirmations2" optional="YES" attributeType="String"/>
+        <attribute name="affirmations3" optional="YES" attributeType="String"/>
+        <attribute name="caused" optional="YES" attributeType="String"/>
+        <attribute name="change" optional="YES" attributeType="String"/>
+        <attribute name="conflict" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="day" optional="YES" attributeType="String"/>
+        <attribute name="effort" optional="YES" attributeType="String"/>
+        <attribute name="emotion1" optional="YES" attributeType="String"/>
+        <attribute name="emotion2" optional="YES" attributeType="String"/>
+        <attribute name="emotion3" optional="YES" attributeType="String"/>
+        <attribute name="experience1" optional="YES" attributeType="String"/>
+        <attribute name="experience2" optional="YES" attributeType="String"/>
+        <attribute name="experience3" optional="YES" attributeType="String"/>
+        <attribute name="feel" optional="YES" attributeType="String"/>
+        <attribute name="given" optional="YES" attributeType="String"/>
+        <attribute name="gratitude1" optional="YES" attributeType="String"/>
+        <attribute name="gratitude2" optional="YES" attributeType="String"/>
+        <attribute name="gratitude3" optional="YES" attributeType="String"/>
+        <attribute name="gratitude4" optional="YES" attributeType="String"/>
+        <attribute name="gratitude5" optional="YES" attributeType="String"/>
+        <attribute name="hear" optional="YES" attributeType="String"/>
+        <attribute name="helporhurt" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="improved" optional="YES" attributeType="String"/>
+        <attribute name="love1" optional="YES" attributeType="String"/>
+        <attribute name="love2" optional="YES" attributeType="String"/>
+        <attribute name="love3" optional="YES" attributeType="String"/>
+        <attribute name="meaning" optional="YES" attributeType="String"/>
+        <attribute name="meditation" optional="YES" attributeType="String"/>
+        <attribute name="mondaywhy" optional="YES" attributeType="String"/>
+        <attribute name="ontrack" optional="YES" attributeType="String"/>
+        <attribute name="person" optional="YES" attributeType="String"/>
+        <attribute name="pursuit" optional="YES" attributeType="String"/>
+        <attribute name="received" optional="YES" attributeType="String"/>
+        <attribute name="resolve" optional="YES" attributeType="String"/>
+        <attribute name="saturday1" optional="YES" attributeType="String"/>
+        <attribute name="saturday2" optional="YES" attributeType="String"/>
+        <attribute name="saturday3" optional="YES" attributeType="String"/>
+        <attribute name="saturday4" optional="YES" attributeType="String"/>
+        <attribute name="saturday5" optional="YES" attributeType="String"/>
+        <attribute name="saturday6" optional="YES" attributeType="String"/>
+        <attribute name="saturday7" optional="YES" attributeType="String"/>
+        <attribute name="saturday8" optional="YES" attributeType="String"/>
+        <attribute name="saturday9" optional="YES" attributeType="String"/>
+        <attribute name="saturday10" optional="YES" attributeType="String"/>
+        <attribute name="see" optional="YES" attributeType="String"/>
+        <attribute name="smell" optional="YES" attributeType="String"/>
+        <attribute name="story" optional="YES" attributeType="String"/>
+        <attribute name="sundayGoal" optional="YES" attributeType="String"/>
+        <attribute name="sundayMantra" optional="YES" attributeType="String"/>
+        <attribute name="sundayPlan" optional="YES" attributeType="String"/>
+        <attribute name="sundayWhy" optional="YES" attributeType="String"/>
+        <attribute name="surroundings" optional="YES" attributeType="String"/>
+        <attribute name="thought1" optional="YES" attributeType="String"/>
+        <attribute name="thought2" optional="YES" attributeType="String"/>
+        <attribute name="thought3" optional="YES" attributeType="String"/>
+        <attribute name="timeperiod" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="touch" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Monday" representedClassName="Monday" syncable="YES" codeGenerationType="class">
+        <attribute name="emotion1" optional="YES" attributeType="String"/>
+        <attribute name="emotion2" optional="YES" attributeType="String"/>
+        <attribute name="emotion3" optional="YES" attributeType="String"/>
+        <attribute name="helporhurt" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="mondaywhy" optional="YES" attributeType="String"/>
+        <attribute name="thought1" optional="YES" attributeType="String"/>
+        <attribute name="thought2" optional="YES" attributeType="String"/>
+        <attribute name="thought3" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Sunday" representedClassName="Sunday" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="sundayGoal" optional="YES" attributeType="String"/>
+        <attribute name="sundayMantra" optional="YES" attributeType="String"/>
+        <attribute name="sundayPlan" optional="YES" attributeType="String"/>
+        <attribute name="sundayWhy" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Thursday" representedClassName="Thursday" syncable="YES" codeGenerationType="class">
+        <attribute name="affirmations1" optional="YES" attributeType="String"/>
+        <attribute name="affirmations2" optional="YES" attributeType="String"/>
+        <attribute name="affirmations3" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="love1" optional="YES" attributeType="String"/>
+        <attribute name="love2" optional="YES" attributeType="String"/>
+        <attribute name="love3" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Tuesday" representedClassName="Tuesday" syncable="YES" codeGenerationType="class">
+        <attribute name="caused" optional="YES" attributeType="String"/>
+        <attribute name="given" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="improve" optional="YES" attributeType="String"/>
+        <attribute name="person" optional="YES" attributeType="String"/>
+        <attribute name="received" optional="YES" attributeType="String"/>
+        <attribute name="timeperiod" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Wednesday" representedClassName="Wednesday" syncable="YES" codeGenerationType="class">
+        <attribute name="change" optional="YES" attributeType="String"/>
+        <attribute name="effort" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="ontrack" optional="YES" attributeType="String"/>
+        <attribute name="pursuit" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Experiences" positionX="-54" positionY="108" width="128" height="104"/>
+        <element name="Friday" positionX="-9" positionY="162" width="128" height="119"/>
+        <element name="Gratitude" positionX="-45" positionY="108" width="128" height="134"/>
+        <element name="Identify" positionX="-54" positionY="36" width="128" height="134"/>
+        <element name="Item" positionX="-63" positionY="18" width="128" height="44"/>
+        <element name="Monday" positionX="-18" positionY="144" width="128" height="164"/>
+        <element name="Journal" positionX="0" positionY="171" width="128" height="944"/>
+        <element name="Sunday" positionX="-54" positionY="108" width="128" height="104"/>
+        <element name="Thursday" positionX="36" positionY="207" width="128" height="148"/>
+        <element name="Tuesday" positionX="0" positionY="189" width="128" height="134"/>
+        <element name="Wednesday" positionX="18" positionY="198" width="128" height="104"/>
+    </elements>
+</model>
